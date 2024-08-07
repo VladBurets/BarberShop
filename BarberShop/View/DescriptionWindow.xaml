@@ -1,0 +1,16 @@
+﻿<Window x:Class="BarberShop.View.DescriptionWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BarberShop.View"
+        mc:Ignorable="d"
+        Title="Подробнее" Height="241" Width="293" ResizeMode="NoResize">
+    <Grid Background="DimGray">
+        <ScrollViewer>
+            <Grid>
+                <TextBlock Foreground="white" Name="DescriptionTextBox" TextAlignment="Left" FontSize="16" HorizontalAlignment="Center" TextWrapping="Wrap" Margin="0,10,0,0" VerticalAlignment="Top" Width="256"/>
+            </Grid>
+        </ScrollViewer>
+    </Grid>
+</Window>

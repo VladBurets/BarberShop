@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="BarberShop.View.ServiceView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:BarberShop.View"
+             mc:Ignorable="d" Height="408" Background="LightGray" Width="272">
+    <Grid Background="DimGray" >
+        <TextBlock Foreground="Yellow" Name="TitleBox" TextAlignment="Center" FontSize="16" HorizontalAlignment="Center" TextWrapping="Wrap" Margin="0,253,0,0" VerticalAlignment="Top" Width="160"/>
+        <Label Foreground="White" Content="Вид услуги:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,296,0,0"/>
+        <Label Foreground="White" Name="TypeLabel" Content="Вид услуги" HorizontalAlignment="Left" Margin="10,313,0,0" VerticalAlignment="Top"/>
+        <Button Background="DimGray" Foreground="Yellow" BorderBrush="yellow" Content="Описание" HorizontalAlignment="Left" Margin="10,378,0,0" VerticalAlignment="Top" Width="121" Click="Button_Click"/>
+        <Image x:Name="ServiceImage" Width="221" Height="221" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="28,21,0,0"/>
+
+        <Label Foreground="White" Content="Цена(руб):" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,333,0,0"/>
+        <Label Foreground="White" x:Name="PriceLabel" Content="Цена(руб)" HorizontalAlignment="Left" Margin="10,352,0,0" VerticalAlignment="Top"/>
+        <Button Name="BasketButton" Foreground="Yellow" BorderBrush="Yellow" Background="DimGray" Content="В корзину" HorizontalAlignment="Left" Margin="136,378,0,0" VerticalAlignment="Top" Width="126" Click="Button_Click_1"/>
+    </Grid>
+</UserControl>
